@@ -22,7 +22,7 @@ const Skills = () => {
                         const {id,skillLogo,color} = skill;
                         return(
                             
-                                <div className="skill" data-aos="fade-right" key={id} style={{color:color}}>
+                                <div className="skill" data-aos="fade-down" key={id} style={{color:color}}>
                                     {skillLogo}
                                 </div>
                             

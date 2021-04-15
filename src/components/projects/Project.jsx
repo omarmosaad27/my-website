@@ -15,7 +15,7 @@ const Project = ({project}) => {
     return (
         <Wrapper>
             <div className="project">
-                <div className="img-container" data-aos="slide-right">
+                <div className="img-container" data-aos="slide-up">
                     <img src={img} alt={name}/>
                 </div>
                 <div className="project-info" data-aos="slide-up">

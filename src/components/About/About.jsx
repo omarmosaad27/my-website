@@ -19,7 +19,7 @@ const About = () => {
                     <div className="about-img" data-aos="zoom-in-up">
                         <img src={Img} alt="about"/>
                     </div>
-                    <div className="about-info" data-aos="zoom-in-left">
+                    <div className="about-info" data-aos="zoom-in-down">
                         <h3>
                             hello there,
                         </h3>

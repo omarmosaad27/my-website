@@ -39,7 +39,7 @@ export default Navbar
 
 const Wrapper =  styled.div `
         height: 80px;
-        width: 100%;
+        width: 100vw;
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
         padding: 1rem 0;
         background: var(--clr-bcg);

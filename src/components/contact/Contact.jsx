@@ -26,7 +26,7 @@ const Contact = () => {
                     </button>
                 </ul>
                 
-                    <ul className="social-media" data-aos="fade-left">
+                    <ul className="social-media" data-aos="fade-up">
                         <li>
                             <a href="https://www.linkedin.com/in/omar-mosaad-6a404318a/"><AiOutlineLinkedin/></a>
                         </li>
