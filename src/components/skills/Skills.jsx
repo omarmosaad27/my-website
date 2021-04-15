@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useGlobalContext } from '../../Context'
 import styled from  'styled-components'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Skills = () => {
     const {skills} = useGlobalContext();
     console.log(skills);
+    useEffect(()=>{
+        Aos.init({
+            duration:2000
+        })
+    },[])
     return (
         <Wrapper id="skills">
             <div className="skills-section container">
@@ -15,7 +22,7 @@ const Skills = () => {
                         const {id,skillLogo,color} = skill;
                         return(
                             
-                                <div className="skill" key={id} style={{color:color}}>
+                                <div className="skill" data-aos="fade-right" key={id} style={{color:color}}>
                                     {skillLogo}
                                 </div>
                             

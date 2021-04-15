@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import {FaGithub} from 'react-icons/fa'
 const Project = ({project}) => {
     console.log(project);
     const { name, img, link, githubLink, tools:{html,css,js,react,styled}} = project
-    
+    useEffect(()=>{
+        Aos.init({
+            duration:2000
+        });
+    },[])
 
     return (
         <Wrapper>
             <div className="project">
-                <div className="img-container">
+                <div className="img-container" data-aos="slide-right">
                     <img src={img} alt={name}/>
                 </div>
-                <div className="project-info">
+                <div className="project-info" data-aos="slide-up">
                     <h2>{name}</h2>
                     <div className="tools">
                         <p>tools:</p>

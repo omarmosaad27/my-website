@@ -4,6 +4,7 @@ import Trvl from './../../images/trvlPNG.PNG'
 import omxir from './../../images/omxirPNG.PNG'
 import ralish from './../../images/ralishPNG.PNG'
 import omstore from './../../images/omstorePNG.PNG'
+import githubusers from './../../images/githubusers.PNG'
 
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
@@ -80,6 +81,18 @@ export const myProjects = [
         },
         link:"https://omarmosaad27.github.io/OMSTORE/#/",
         githubLink:"https://github.com/omarmosaad27/OMSTORE"
+    },
+    {
+        id:6,
+        name:"github-users",
+        img:githubusers,
+        tools:{ 
+            react:<FaReact/>,
+            css:<FaCss3Alt/>,
+            styled:<SiStyledComponents/>
+        },
+        link:"https://omarmosaad27.github.io/search-github-users/",
+        githubLink:"https://github.com/omarmosaad27/search-github-users"
     },
 
 ]

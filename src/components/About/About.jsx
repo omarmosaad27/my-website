@@ -1,18 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import Img from './../../images/undraw_web_developer_p3e5.svg'
 import resume from './../../images/Omar-Resume.pdf'
+import Aos, { init } from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+    useEffect(()=>{
+        init({
+            duration:2000
+        })
+    },[])
     return (
         <Wrapper id="about">
             <div className="about-section container">
                 <h2 className="title">about me <span className="underline"></span></h2>
 
                 <div className="about">
-                    <div className="about-img">
+                    <div className="about-img" data-aos="zoom-in-up">
                         <img src={Img} alt="about"/>
                     </div>
-                    <div className="about-info">
+                    <div className="about-info" data-aos="zoom-in-left">
                         <h3>
                             hello there,
                         </h3>

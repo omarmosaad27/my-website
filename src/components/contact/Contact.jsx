@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {FaGithub} from 'react-icons/fa'
 import resume from './../../images/Omar-Resume.pdf'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Contact = () => {
+    useEffect(()=>{
+        Aos.init({
+            duration:2000
+        })
+    },[])
     return (
         <Wrapper id="contact">
             <div className=" container">
             <h2 className="title">contact <span className="underline"></span></h2>
             <div className="contact">
-                <ul className="contact-info">
+                <ul className="contact-info" data-aos="fade-up">
                     <li><span>name :</span> omar mosaad </li>
                     <li><span>age :</span> 24</li>
                     <li><span>mobile number :</span> 01091485337</li>
@@ -20,7 +26,7 @@ const Contact = () => {
                     </button>
                 </ul>
                 
-                    <ul className="social-media">
+                    <ul className="social-media" data-aos="fade-left">
                         <li>
                             <a href="https://www.linkedin.com/in/omar-mosaad-6a404318a/"><AiOutlineLinkedin/></a>
                         </li>
