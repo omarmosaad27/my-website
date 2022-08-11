@@ -5,6 +5,13 @@ import omxir from './../../images/omxirPNG.PNG'
 import ralish from './../../images/ralishPNG.PNG'
 import omstore from './../../images/omstorePNG.PNG'
 import githubusers from './../../images/githubusers.PNG'
+import todo from './../../images/todo.PNG'
+import bookmark from './../../images/bookmark.PNG'
+import joblisting from './../../images/joblisting.PNG'
+import Crowdfunding from './../../images/Crowdfunding.PNG'
+import timetracking from './../../images/timetracking.PNG'
+import product from './../../images/product.PNG'
+import social from './../../images/social.PNG'
 
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
@@ -93,6 +100,86 @@ export const myProjects = [
         },
         link:"https://omarmosaad27.github.io/search-github-users/",
         githubLink:"https://github.com/omarmosaad27/search-github-users"
+    },
+    {
+        id:7,
+        name:"todo app",
+        img:todo,
+        tools:{ 
+            react:<FaReact/>,
+            css:<FaCss3Alt/>,
+        },
+        link:"https://omarmosaad27.github.io/todo-app-with-react/",
+        githubLink:"https://github.com/omarmosaad27/todo-app-with-react"
+    },
+    {
+        id:8,
+        name:"bookmark landing page",
+        img:bookmark,
+        tools:{ 
+            react:<FaReact/>,
+            css:<FaCss3Alt/>,
+        },
+        link:"https://omarmosaad27.github.io/bookmark-landing-page-react/",
+        githubLink:"https://github.com/omarmosaad27/bookmark-landing-page-react"
+    },
+    {
+        id:9,
+        name:"job listing",
+        img:joblisting,
+        tools:{ 
+            react:<FaReact/>,
+            css:<FaCss3Alt/>,
+        },
+        link:"https://omarmosaad27.github.io/job-listing-with-react/",
+        githubLink:"https://github.com/omarmosaad27/job-listing-with-react"
+    },
+    {
+        id:10,
+        name:"Crowdfunding-product-page",
+        img:Crowdfunding,
+        tools:{ 
+            html:<AiOutlineHtml5/>,
+            css: <FaCss3Alt />,
+            js:<DiJavascript/>
+        },
+        link:"https://omarmosaad27.github.io/Crowdfunding-product-page/",
+        githubLink:"https://github.com/omarmosaad27/Crowdfunding-product-page"
+    },
+    {
+        id:11,
+        name:"Time-tracking-dashboard",
+        img:timetracking,
+        tools:{ 
+            html:<AiOutlineHtml5/>,
+            css: <FaCss3Alt />,
+            js:<DiJavascript/>
+        },
+        link:"https://omarmosaad27.github.io/Time-tracking-dashboard/",
+        githubLink:"https://github.com/omarmosaad27/Time-tracking-dashboard"
+    },
+    {
+        id:12,
+        name:"product page",
+        img:product,
+        tools:{ 
+            react:<FaReact/>,
+            css: <FaCss3Alt />,
+        },
+        link:"https://omarmosaad27.github.io/product-page-with-react/",
+        githubLink:"hhttps://github.com/omarmosaad27/product-page-with-react"
+    },
+    {
+        id:13,
+        name:"social media dashboard",
+        img:social,
+        tools:{ 
+            html:<AiOutlineHtml5/>,
+            css: <FaCss3Alt />,
+            js:<DiJavascript/>
+        },
+        link:"https://omarmosaad27.github.io/Social-media-dashboard-with-theme-switcher/",
+        githubLink:"https://github.com/omarmosaad27/Social-media-dashboard-with-theme-switcher"
     },
 
 ]
