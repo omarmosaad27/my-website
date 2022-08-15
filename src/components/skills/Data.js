@@ -2,6 +2,7 @@ import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
 import {BsBootstrap} from 'react-icons/bs'
+import {SiRedux} from 'react-icons/si'
 
 export const mySkills = [
     {
@@ -26,16 +27,21 @@ export const mySkills = [
     },
     {
         id:5,
+        skillLogo:<SiRedux/>,
+        color:"#E2E2E2"
+    },
+    {
+        id:6,
         skillLogo:<BsBootstrap/>,
         color:"#5C3D87"
     },
     {
-        id:6,
+        id:7,
         skillLogo:<FaGitAlt/>,
         color:"#E84D31"
     },
     {
-        id:7,
+        id:8,
         skillLogo:<FaSass/>,
         color:"#C76395"
     },
