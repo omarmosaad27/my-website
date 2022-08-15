@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import {FaGithub} from 'react-icons/fa'
 const Project = ({project}) => {
     console.log(project);
-    const { name, img, link, githubLink, tools:{html,css,js,react,styled}} = project
+    const { name, img, link, githubLink, tools:{html,css,js,react,styled,redux}} = project
     useEffect(()=>{
         Aos.init({
             duration:2000
@@ -28,6 +28,7 @@ const Project = ({project}) => {
                             <li>{css}</li>
                             <li>{js}</li>
                             <li>{styled}</li>
+                            <li>{redux}</li>
                         </ul>
                     </div>
                     <div className="buttons">

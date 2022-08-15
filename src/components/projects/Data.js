@@ -12,12 +12,24 @@ import Crowdfunding from './../../images/Crowdfunding.PNG'
 import timetracking from './../../images/timetracking.PNG'
 import product from './../../images/product.PNG'
 import social from './../../images/social.PNG'
-
+import furniture from './../../images/furniture-home.PNG'
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
-import {SiStyledComponents} from 'react-icons/si'
+import {SiStyledComponents,SiRedux} from 'react-icons/si'
 export const myProjects = [
+    {
+        id:0,
+        name:"Furniture Home",
+        img:furniture,
+        tools:{ 
+            react:<FaReact/>,
+            css: <FaCss3Alt />,
+            redux: <SiRedux/>
+        },
+        link:"https://omarmosaad27.github.io/Furniture-Home-e-commerce/#/",
+        githubLink:"https://github.com/omarmosaad27/Furniture-Home-e-commerce"
+    },
     {
         id:1,
         name:"xypo",
