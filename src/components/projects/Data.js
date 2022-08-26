@@ -13,6 +13,7 @@ import timetracking from './../../images/timetracking.PNG'
 import product from './../../images/product.PNG'
 import social from './../../images/social.PNG'
 import furniture from './../../images/furniture-home.PNG'
+import product_management from './../../images/product-management.PNG'
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
@@ -41,6 +42,18 @@ export const myProjects = [
         },
         link:"https://omarmosaad27.github.io/xypo/",
         githubLink:"https://github.com/omarmosaad27/xypo"
+    },
+    {
+        id:14,
+        name:"product-management-system",
+        img:product_management,
+        tools:{ 
+            html:<AiOutlineHtml5/>,
+            css:<FaCss3Alt/>,
+            js:<DiJavascript/>
+        },
+        link:"https://omarmosaad27.github.io/product-management-system-vanilla-js/",
+        githubLink:"https://github.com/omarmosaad27/product-management-system-vanilla-js"
     },
     {
         id:2,
