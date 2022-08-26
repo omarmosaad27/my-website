@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.6f00ebff.chunk.css",
-    "main.js": "/my-website/static/js/main.1ae0bf7b.chunk.js",
-    "main.js.map": "/my-website/static/js/main.1ae0bf7b.chunk.js.map",
+    "main.js": "/my-website/static/js/main.4584baa6.chunk.js",
+    "main.js.map": "/my-website/static/js/main.4584baa6.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.e4fa53e8.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.e4fa53e8.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/my-website/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.cacda8d2.chunk.js": "/my-website/static/js/2.cacda8d2.chunk.js",
-    "static/js/2.cacda8d2.chunk.js.map": "/my-website/static/js/2.cacda8d2.chunk.js.map",
+    "static/js/2.12850953.chunk.js": "/my-website/static/js/2.12850953.chunk.js",
+    "static/js/2.12850953.chunk.js.map": "/my-website/static/js/2.12850953.chunk.js.map",
     "static/js/3.35046b0e.chunk.js": "/my-website/static/js/3.35046b0e.chunk.js",
     "static/js/3.35046b0e.chunk.js.map": "/my-website/static/js/3.35046b0e.chunk.js.map",
     "index.html": "/my-website/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/my-website/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.6f00ebff.chunk.css.map": "/my-website/static/css/main.6f00ebff.chunk.css.map",
-    "static/js/2.cacda8d2.chunk.js.LICENSE.txt": "/my-website/static/js/2.cacda8d2.chunk.js.LICENSE.txt",
+    "static/js/2.12850953.chunk.js.LICENSE.txt": "/my-website/static/js/2.12850953.chunk.js.LICENSE.txt",
     "static/media/Crowdfunding.f49168cc.PNG": "/my-website/static/media/Crowdfunding.f49168cc.PNG",
     "static/media/Omar-Resume.6e6bdba0.pdf": "/my-website/static/media/Omar-Resume.6e6bdba0.pdf",
     "static/media/bookmark.4d7f4735.PNG": "/my-website/static/media/bookmark.4d7f4735.PNG",
@@ -23,6 +23,7 @@
     "static/media/loruki.d80a9621.png": "/my-website/static/media/loruki.d80a9621.png",
     "static/media/omstorePNG.a005cec4.PNG": "/my-website/static/media/omstorePNG.a005cec4.PNG",
     "static/media/omxirPNG.fbc0c8fe.PNG": "/my-website/static/media/omxirPNG.fbc0c8fe.PNG",
+    "static/media/product-management.970ed941.PNG": "/my-website/static/media/product-management.970ed941.PNG",
     "static/media/product.a1036c85.PNG": "/my-website/static/media/product.a1036c85.PNG",
     "static/media/ralishPNG.d2c7150b.PNG": "/my-website/static/media/ralishPNG.d2c7150b.PNG",
     "static/media/social.f16bb697.PNG": "/my-website/static/media/social.f16bb697.PNG",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.e4fa53e8.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.cacda8d2.chunk.js",
+    "static/js/2.12850953.chunk.js",
     "static/css/main.6f00ebff.chunk.css",
-    "static/js/main.1ae0bf7b.chunk.js"
+    "static/js/main.4584baa6.chunk.js"
   ]
 }
