@@ -1,9 +1,10 @@
 import {AiOutlineHtml5} from 'react-icons/ai'
-import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
+import {FaCss3Alt,FaReact,FaGitAlt,FaSass,FaNodeJs,FaTrello} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
 import {BsBootstrap} from 'react-icons/bs'
-import {SiRedux} from 'react-icons/si'
-
+import { SiRedux,SiTypescript } from 'react-icons/si'
+import { TbBrandNextjs } from 'react-icons/tb'
+import {VscJson} from 'react-icons/vsc'
 export const mySkills = [
     {
         id:1,
@@ -44,5 +45,30 @@ export const mySkills = [
         id:8,
         skillLogo:<FaSass/>,
         color:"#C76395"
+    },
+    {
+        id:9,
+        skillLogo:<FaNodeJs/>,
+        color:"#6cc24a"
+    },
+    {
+        id:10,
+        skillLogo:<TbBrandNextjs/>,
+        color:"#fff"
+    },
+    {
+        id:11,
+        skillLogo:<SiTypescript/>,
+        color:"#3178c6"
+    },
+    {
+        id:12,
+        skillLogo:<FaTrello/>,
+        color:"#0079bf"
+    },
+    {
+        id:13,
+        skillLogo:<VscJson/>,
+        color:"#fff200"
     },
 ]
