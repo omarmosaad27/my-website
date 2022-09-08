@@ -54,7 +54,7 @@ export const mySkills = [
     {
         id:10,
         skillLogo:<TbBrandNextjs/>,
-        color:"#fff"
+        color:"#000"
     },
     {
         id:11,

@@ -17,7 +17,7 @@ import product_management from './../../images/product-management.PNG'
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {FaCss3Alt,FaReact,FaGitAlt,FaSass} from 'react-icons/fa'
 import {DiJavascript} from 'react-icons/di'
-import {SiStyledComponents,SiRedux} from 'react-icons/si'
+import {SiStyledcomponents,SiRedux} from 'react-icons/si'
 export const myProjects = [
     {
         id:0,
@@ -74,7 +74,7 @@ export const myProjects = [
         tools:{ 
             react:<FaReact/>,
             css:<FaCss3Alt/>,
-            styled:<SiStyledComponents/>
+            styled:<SiStyledcomponents/>
         },
         link:"https://omarmosaad27.github.io/TRVL/#/",
         githubLink:"https://github.com/omarmosaad27/TRVL"
@@ -86,7 +86,7 @@ export const myProjects = [
         tools:{ 
             react:<FaReact/>,
             css:<FaCss3Alt/>,
-            styled:<SiStyledComponents/>
+            styled:<SiStyledcomponents/>
         },
         link:"https://omarmosaad27.github.io/omixr/#/",
         githubLink:"https://github.com/omarmosaad27/omixr"
@@ -98,7 +98,7 @@ export const myProjects = [
         tools:{ 
             react:<FaReact/>,
             css:<FaCss3Alt/>,
-            styled:<SiStyledComponents/>
+            styled:<SiStyledcomponents/>
         },
         link:"https://omarmosaad27.github.io/ralish/#/",
         githubLink:"https://github.com/omarmosaad27/ralish"
@@ -121,7 +121,7 @@ export const myProjects = [
         tools:{ 
             react:<FaReact/>,
             css:<FaCss3Alt/>,
-            styled:<SiStyledComponents/>
+            styled:<SiStyledcomponents/>
         },
         link:"https://omarmosaad27.github.io/search-github-users/",
         githubLink:"https://github.com/omarmosaad27/search-github-users"
