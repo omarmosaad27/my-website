@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.6f00ebff.chunk.css",
-    "main.js": "/my-website/static/js/main.0d521f0e.chunk.js",
-    "main.js.map": "/my-website/static/js/main.0d521f0e.chunk.js.map",
-    "runtime-main.js": "/my-website/static/js/runtime-main.e4fa53e8.js",
-    "runtime-main.js.map": "/my-website/static/js/runtime-main.e4fa53e8.js.map",
+    "main.js": "/my-website/static/js/main.49b82643.chunk.js",
+    "main.js.map": "/my-website/static/js/main.49b82643.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.9401db16.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.9401db16.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/my-website/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.12850953.chunk.js": "/my-website/static/js/2.12850953.chunk.js",
-    "static/js/2.12850953.chunk.js.map": "/my-website/static/js/2.12850953.chunk.js.map",
-    "static/js/3.35046b0e.chunk.js": "/my-website/static/js/3.35046b0e.chunk.js",
-    "static/js/3.35046b0e.chunk.js.map": "/my-website/static/js/3.35046b0e.chunk.js.map",
+    "static/js/2.50d3752b.chunk.js": "/my-website/static/js/2.50d3752b.chunk.js",
+    "static/js/2.50d3752b.chunk.js.map": "/my-website/static/js/2.50d3752b.chunk.js.map",
+    "static/js/3.dfca20df.chunk.js": "/my-website/static/js/3.dfca20df.chunk.js",
+    "static/js/3.dfca20df.chunk.js.map": "/my-website/static/js/3.dfca20df.chunk.js.map",
     "index.html": "/my-website/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/my-website/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.6f00ebff.chunk.css.map": "/my-website/static/css/main.6f00ebff.chunk.css.map",
-    "static/js/2.12850953.chunk.js.LICENSE.txt": "/my-website/static/js/2.12850953.chunk.js.LICENSE.txt",
+    "static/js/2.50d3752b.chunk.js.LICENSE.txt": "/my-website/static/js/2.50d3752b.chunk.js.LICENSE.txt",
     "static/media/Crowdfunding.f49168cc.PNG": "/my-website/static/media/Crowdfunding.f49168cc.PNG",
-    "static/media/Omar-Resume.34f6d1a7.pdf": "/my-website/static/media/Omar-Resume.34f6d1a7.pdf",
+    "static/media/Omar-Resume.ad02de59.pdf": "/my-website/static/media/Omar-Resume.ad02de59.pdf",
     "static/media/bookmark.4d7f4735.PNG": "/my-website/static/media/bookmark.4d7f4735.PNG",
     "static/media/furniture-home.edffd12e.PNG": "/my-website/static/media/furniture-home.edffd12e.PNG",
     "static/media/githubusers.5de2e020.PNG": "/my-website/static/media/githubusers.5de2e020.PNG",
@@ -35,10 +35,10 @@
     "static/media/xypo.aea64a9e.PNG": "/my-website/static/media/xypo.aea64a9e.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4fa53e8.js",
+    "static/js/runtime-main.9401db16.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.12850953.chunk.js",
+    "static/js/2.50d3752b.chunk.js",
     "static/css/main.6f00ebff.chunk.css",
-    "static/js/main.0d521f0e.chunk.js"
+    "static/js/main.49b82643.chunk.js"
   ]
 }
