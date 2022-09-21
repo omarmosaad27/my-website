@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Img from './../../images/undraw_web_developer_p3e5.svg';
 import resume from './../../images/Omar-Resume.pdf';
-import Aos, { init } from 'aos';
+import { init } from 'aos';
 import 'aos/dist/aos.css';
 const About = () => {
   useEffect(() => {
@@ -24,10 +24,9 @@ const About = () => {
           <div className="about-info" data-aos="zoom-in-down">
             <h3>hello there,</h3>
             <p>
-              i'm omar from Egypt, i'm 24 years old, i'm a web developer with a
-              working proficiency in HTML, CSS, Javascript, React js. I am
-              Passionate about Web Techniques, Seek a Keen Knowledge in this
-              Field by Learning Day by day, my goal is to continuously grow as a
+              i'm omar from Egypt, i'm a front-end developer, I am Passionate
+              about Web Techniques, Seek a Keen Knowledge in this Field by
+              Learning Day by day, my goal is to continuously grow as a
               developer while staying current with the latest trends and
               technologies.
             </p>

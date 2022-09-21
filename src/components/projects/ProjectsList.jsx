@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Project from './Project'
 const ProjectsList = () => {
     const {projects} = useGlobalContext();
-    console.log(projects);
     return (
         <Wrapper id="projects">
                 <div className="container">
