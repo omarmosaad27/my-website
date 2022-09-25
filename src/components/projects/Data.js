@@ -14,10 +14,12 @@ import { AiOutlineHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaReact } from 'react-icons/fa';
 import { DiJavascript } from 'react-icons/di';
 import { SiStyledcomponents, SiRedux } from 'react-icons/si';
-import { SiMaterialui, SiChakraui } from 'react-icons/si';
+import { SiMaterialui, SiChakraui, SiTailwindcss } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 import mediatube from './../../images/mediatube.PNG';
 import realtor from './../../images/realtor.PNG';
+import hoobank from './../../images/hoobank.PNG';
+
 export const myProjects = [
   {
     id: 0,
@@ -57,6 +59,19 @@ export const myProjects = [
     ],
     link: 'https://mediatube-react.vercel.app/',
     githubLink: 'https://github.com/omarmosaad27/mediatube-react',
+  },
+  {
+    id: 16,
+    name: 'hoobank',
+    img: hoobank,
+    tools: [
+      {
+        icon: <FaReact />,
+      },
+      { icon: <SiTailwindcss /> },
+    ],
+    link: 'https://hoobank-reactjs-mu.vercel.app/',
+    githubLink: 'https://github.com/omarmosaad27/hoobank-reactjs',
   },
   {
     id: 1,
